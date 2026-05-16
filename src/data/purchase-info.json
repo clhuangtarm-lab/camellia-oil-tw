@@ -1,0 +1,286 @@
+{
+  "year": 115,
+  "note": "本頁資料整理自業者公開資訊與授權，售價、規格、是否預購以業者最新公告為準；本站不代為訂購、亦不會收取相關費用或抽成。若資訊有誤，歡迎來信告知。",
+  "products": [
+    {
+      "productName": "產銷履歷台灣原生種小果苦茶油",
+      "producer": "天水生態農場有限公司",
+      "rank": "特優",
+      "rankClass": "top",
+      "spec": "250ml",
+      "price": "NT$1,160",
+      "phone": "0910-218571",
+      "contact": "莊先生",
+      "channels": "官網；無印良品良品市場",
+      "note": "",
+      "links": [
+        { "label": "官網／購買", "url": "https://tianshuifarm.com" }
+      ]
+    },
+    {
+      "productName": "部落有機苦茶油",
+      "producer": "有限責任臺東縣原住民布拉谷果菜生產合作社",
+      "rank": "特優",
+      "rankClass": "top",
+      "spec": "250ml",
+      "price": "NT$1,500",
+      "phone": "089-561543",
+      "contact": "",
+      "channels": "",
+      "note": "獲獎產品已售罄，歡迎預購",
+      "links": []
+    },
+    {
+      "productName": "陽光苦茶油－檳榔廢園轉作特色苦茶油（李竹裕）",
+      "producer": "李竹裕",
+      "rank": "特優",
+      "rankClass": "top",
+      "spec": "150ml",
+      "price": "NT$650",
+      "phone": "02-2507-8006",
+      "contact": "",
+      "channels": "",
+      "note": "限量公益商品，販售盈餘將全數捐予陽光基金會公益用途",
+      "links": []
+    },
+    {
+      "productName": "有機大果苦茶油",
+      "producer": "卓溪鄉特用作物產銷班第10班（那孟賢）",
+      "rank": "特優",
+      "rankClass": "top",
+      "spec": "",
+      "price": "NT$1,400",
+      "phone": "0928-078108",
+      "contact": "沈良貞",
+      "channels": "",
+      "note": "獲獎產品已售罄，歡迎預購",
+      "links": [
+        { "label": "官網／購買", "url": "https://reurl.cc/mppVD9" },
+        { "label": "Facebook", "url": "https://www.facebook.com/duppusan10/?locale=zh_TW" }
+      ]
+    },
+    {
+      "productName": "有機台灣山茶花籽油",
+      "producer": "金椿茶油工坊有限公司",
+      "rank": "特優",
+      "rankClass": "top",
+      "spec": "150ml",
+      "price": "NT$1,500",
+      "phone": "037-831195",
+      "contact": "陳淑娟",
+      "channels": "",
+      "note": "",
+      "links": [
+        { "label": "官網／購買", "url": "http://www.dr-oil.com" }
+      ]
+    },
+    {
+      "productName": "阿步農園有機苦茶油",
+      "producer": "阿步農園",
+      "rank": "特優",
+      "rankClass": "top",
+      "spec": "",
+      "price": "定價NT$2,180，優惠價NT$1,780",
+      "phone": "",
+      "contact": "",
+      "channels": "Facebook；7-11賣貨便",
+      "note": "",
+      "links": [
+        { "label": "官網／購買", "url": "https://reurl.cc/53368q" },
+        { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100057286126566&mibextid=wwXIfr" }
+      ]
+    },
+    {
+      "productName": "有機小果苦茶油",
+      "producer": "大地農場（鄭文震）",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "",
+      "price": "NT$2,500",
+      "phone": "03-5802752、0975-302995",
+      "contact": "",
+      "channels": "",
+      "note": "",
+      "links": [
+        { "label": "LINE / 連結", "url": "https://lin.ee/pGyEeeT" }
+      ]
+    },
+    {
+      "productName": "有機小果苦茶油",
+      "producer": "山上那良農產行",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "",
+      "price": "NT$1,400",
+      "phone": "0928-078108",
+      "contact": "沈良貞",
+      "channels": "",
+      "note": "獲獎產品已售罄，歡迎預購",
+      "links": [
+        { "label": "官網／購買", "url": "https://reurl.cc/j66NRD" },
+        { "label": "Facebook", "url": "https://www.facebook.com/33naliang/?locale=zh_TW" }
+      ]
+    },
+    {
+      "productName": "有機苦茶油（田效文）",
+      "producer": "田效文",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "",
+      "price": "NT$1,250",
+      "phone": "03-5800676",
+      "contact": "",
+      "channels": "通路：赤柯山油茶工坊；LINE官方帳號：@836juoui",
+      "note": "",
+      "links": [
+        { "label": "官網／購買", "url": "https://www.chikeshan-oil.com.tw/" }
+      ]
+    },
+    {
+      "productName": "石多田冷壓苦茶油",
+      "producer": "石多田苦茶油",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "瓶",
+      "price": "NT$1,500",
+      "phone": "0955-622695",
+      "contact": "張平禎",
+      "channels": "",
+      "note": "",
+      "links": [
+        { "label": "Facebook", "url": "https://www.facebook.com/rockfarm2021/" },
+        { "label": "LINE", "url": "https://line.me/ti/p/u885481u" }
+      ]
+    },
+    {
+      "productName": "朵栗油茶果－花蓮苦茶油",
+      "producer": "朵栗栗農坊",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "250ml",
+      "price": "NT$1,880",
+      "phone": "0919-218-196",
+      "contact": "陳小姐",
+      "channels": "農良直賣所；蝦皮",
+      "note": "",
+      "links": [
+        { "label": "官網／購買", "url": "https://www.afasale.tw/product/1684" },
+        { "label": "LINE / 連結", "url": "https://tw.shp.ee/ACqw3D4L" }
+      ]
+    },
+    {
+      "productName": "宏春農園苦茶油",
+      "producer": "宏春農場",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "250ml",
+      "price": "NT$1,200",
+      "phone": "0988-018012",
+      "contact": "黃先生",
+      "channels": "花蓮縣瑞穗鄉農會超市：03-8870897；臺南麻豆區農會超市：06-5718575",
+      "note": "",
+      "links": []
+    },
+    {
+      "productName": "嶼高山苦茶油",
+      "producer": "林滄浪（嶼高山苦茶油）",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "250ml",
+      "price": "NT$1,500",
+      "phone": "",
+      "contact": "",
+      "channels": "",
+      "note": "獲獎產品已售罄，歡迎預購",
+      "links": [
+        { "label": "官網／購買", "url": "https://reurl.cc/Q22yWO" },
+        { "label": "LINE", "url": "https://line.me/ti/p/@421vquru" }
+      ]
+    },
+    {
+      "productName": "有機轉型期苦茶油",
+      "producer": "油之初工坊（味醇有限公司）",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "200ml",
+      "price": "NT$1,680",
+      "phone": "0906-696253",
+      "contact": "方茂榮",
+      "channels": "",
+      "note": "獲獎產品已售罄，歡迎預購",
+      "links": [
+        { "label": "官網／購買", "url": "https://oilfaith.cashier.ecpay.com.tw/" }
+      ]
+    },
+    {
+      "productName": "茄苳小農｜冷壓苦茶油",
+      "producer": "茄苳小農",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "250ml",
+      "price": "NT$1,300",
+      "phone": "",
+      "contact": "",
+      "channels": "",
+      "note": "獲獎產品已售罄，歡迎預購",
+      "links": [
+        { "label": "官網／購買", "url": "https://qietong.tw" },
+        { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100073503760886" }
+      ]
+    },
+    {
+      "productName": "梅山詳賀農場苦茶油",
+      "producer": "梅山詳賀農場",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "300ml",
+      "price": "NT$1,800",
+      "phone": "0928-358195",
+      "contact": "翁銘詳",
+      "channels": "",
+      "note": "",
+      "links": []
+    },
+    {
+      "productName": "傳統經典款苦茶油",
+      "producer": "暗影山無毒苦茶園",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "500cc",
+      "price": "NT$1,500",
+      "phone": "0901-080-001",
+      "contact": "",
+      "channels": "",
+      "note": "",
+      "links": [
+        { "label": "Facebook", "url": "https://www.facebook.com/setgoto/?ref=page_internal" }
+      ]
+    },
+    {
+      "productName": "堯哥有機苦茶油",
+      "producer": "嘉義縣中埔鄉油茶產銷班第九班",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "200cc",
+      "price": "NT$1,500",
+      "phone": "0988-009977",
+      "contact": "曾子瑤",
+      "channels": "",
+      "note": "採預約制，歡迎預購",
+      "links": []
+    },
+    {
+      "productName": "龍山苦茶油",
+      "producer": "龍山苦茶油",
+      "rank": "優等",
+      "rankClass": "good",
+      "spec": "200cc／500cc",
+      "price": "NT$1,500／200cc；NT$3,500／500cc",
+      "phone": "0933-267936",
+      "contact": "李德隆",
+      "channels": "",
+      "note": "獲獎產品已售罄，歡迎預購",
+      "links": []
+    }
+  ]
+}

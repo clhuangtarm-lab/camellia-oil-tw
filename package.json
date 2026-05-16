@@ -1,0 +1,22 @@
+{
+  "name": "camellia-oil-website",
+  "version": "1.0.0",
+  "description": "好油品味｜國產油茶資訊網",
+  "type": "module",
+  "scripts": {
+    "content:check": "node scripts/check-content.mjs",
+    "content:new": "node scripts/new-content.mjs",
+    "content:import": "node scripts/excel-to-content.mjs",
+    "content:build": "node scripts/build.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "marked": "^12.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

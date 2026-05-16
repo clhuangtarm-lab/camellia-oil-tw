@@ -1,0 +1,73 @@
+{
+  "years": [
+    {
+      "year": 115,
+      "yearLabel": "115 年度",
+      "competitionType": "茶油評鑑",
+      "hasPurchaseInfo": true,
+      "awards": [
+        { "rank": "特優", "rankClass": "top",  "productName": "產銷履歷台灣原生種小果苦茶油",                          "producer": "天水生態農場有限公司" },
+        { "rank": "特優", "rankClass": "top",  "productName": "部落有機苦茶油",                                      "producer": "有限責任臺東縣原住民布拉谷果菜生產合作社" },
+        { "rank": "特優", "rankClass": "top",  "productName": "陽光苦茶油－檳榔廢園轉作特色苦茶油（李竹裕）",        "producer": "李竹裕" },
+        { "rank": "特優", "rankClass": "top",  "productName": "有機大果苦茶油",                                      "producer": "卓溪鄉特用作物產銷班第10班（那孟賢）" },
+        { "rank": "特優", "rankClass": "top",  "productName": "有機台灣山茶花籽油",                                  "producer": "金椿茶油工坊有限公司" },
+        { "rank": "特優", "rankClass": "top",  "productName": "阿步農園有機苦茶油",                                  "producer": "阿步農園" },
+        { "rank": "優等", "rankClass": "good", "productName": "有機小果苦茶油",                                      "producer": "大地農場（鄭文震）" },
+        { "rank": "優等", "rankClass": "good", "productName": "有機小果苦茶油",                                      "producer": "山上那良農產行" },
+        { "rank": "優等", "rankClass": "good", "productName": "有機苦茶油（田效文）",                                "producer": "田效文" },
+        { "rank": "優等", "rankClass": "good", "productName": "石多田冷壓苦茶油",                                    "producer": "石多田苦茶油" },
+        { "rank": "優等", "rankClass": "good", "productName": "朵栗油茶果－花蓮苦茶油",                              "producer": "朵栗栗農坊" },
+        { "rank": "優等", "rankClass": "good", "productName": "宏春農園苦茶油",                                      "producer": "宏春農場" },
+        { "rank": "優等", "rankClass": "good", "productName": "嶼高山苦茶油",                                        "producer": "林滄浪（嶼高山苦茶油）" },
+        { "rank": "優等", "rankClass": "good", "productName": "有機轉型期苦茶油",                                    "producer": "油之初工坊（味醇有限公司）" },
+        { "rank": "優等", "rankClass": "good", "productName": "茄苳小農｜冷壓苦茶油",                               "producer": "茄苳小農" },
+        { "rank": "優等", "rankClass": "good", "productName": "梅山詳賀農場苦茶油",                                  "producer": "梅山詳賀農場" },
+        { "rank": "優等", "rankClass": "good", "productName": "傳統經典款苦茶油",                                    "producer": "暗影山無毒苦茶園" },
+        { "rank": "優等", "rankClass": "good", "productName": "堯哥有機苦茶油",                                      "producer": "嘉義縣中埔鄉油茶產銷班第九班" },
+        { "rank": "優等", "rankClass": "good", "productName": "龍山苦茶油",                                          "producer": "龍山苦茶油" }
+      ]
+    },
+    {
+      "year": 114,
+      "yearLabel": "114 年度",
+      "competitionType": "茶油評鑑",
+      "hasPurchaseInfo": false,
+      "awards": [
+        { "rank": "特優", "rankClass": "top",  "productName": "小島大果",                                            "producer": "" },
+        { "rank": "特優", "rankClass": "top",  "productName": "大地農場-鄭文震",                                    "producer": "" },
+        { "rank": "特優", "rankClass": "top",  "productName": "石多田苦茶油",                                        "producer": "" },
+        { "rank": "特優", "rankClass": "top",  "productName": "田效文",                                              "producer": "" },
+        { "rank": "特優", "rankClass": "top",  "productName": "耕鳥共食 X 昆帝夫法雷南生態農場",                    "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "爪巴山農園",                                          "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "黃育婷",                                              "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "阿步農園",                                            "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "新竹縣峨眉鄉特用作物產銷班第4班(黃增謀)",            "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "天水生態農場有限公司",                                "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "朵栗栗農坊",                                          "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "金椿茶油工坊",                                        "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "油之初工坊",                                          "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "嘉義縣中埔鄉中埔油茶產銷班第9班",                    "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "竹湖農場",                                            "producer": "" }
+      ]
+    },
+    {
+      "year": 113,
+      "yearLabel": "113 年度",
+      "competitionType": "茶籽評鑑",
+      "hasPurchaseInfo": false,
+      "awards": [
+        { "rank": "特優", "rankClass": "top",  "productName": "爪巴山農園",                                          "producer": "" },
+        { "rank": "特優", "rankClass": "top",  "productName": "姜義銘",                                              "producer": "" },
+        { "rank": "特優", "rankClass": "top",  "productName": "林滄浪",                                              "producer": "" },
+        { "rank": "特優", "rankClass": "top",  "productName": "曾子瑤",                                              "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "阿步農園",                                            "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "耕鳥共食 x 昆帝夫法蕾南生態農場",                    "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "油茶兒農園",                                          "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "花蓮縣卓溪特用作物產銷班第10班",                     "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "小島大果",                                            "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "朵栗栗農坊",                                          "producer": "" },
+        { "rank": "優選", "rankClass": "good", "productName": "保證責任嘉義縣梅山茶油生產合作社",                   "producer": "" }
+      ]
+    }
+  ]
+}
