@@ -1,0 +1,12 @@
+node_modules/
+dist/
+handoff-extracted/
+
+# 上傳的原始檔（不需進版控）
+*.zip
+uploads/
+
+# 系統檔
+.DS_Store
+Thumbs.db
+desktop.ini
