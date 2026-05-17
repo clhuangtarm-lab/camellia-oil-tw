@@ -31,7 +31,7 @@
     { href: P + 'index.html',                       label: '首頁',                key: 'home' },
     { href: P + 'articles.html#group-intro',        label: '認識國產油茶',         key: 'intro'  },
     { href: P + 'awards.html',                      label: '茶油品評與得獎',       key: 'awards' },
-    { href: P + 'articles.html#group-cultivation',  label: '油茶栽培與轉作',       key: 'cult'   },
+    { href: P + 'articles.html#group-cultivation',  label: '油茶管理知識',         key: 'cult'   },
     { href: P + 'activities.html',                  label: '活動與課程',           key: 'act'    },
     { href: P + 'resources.html',                   label: '出版品與數位資源',     key: 'res'    },
     { href: P + 'about.html',                       label: '關於本站',             key: 'about'  },
