@@ -10,6 +10,78 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./assets/site.css" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 4 C20 11, 25 16, 25 21 C25 26, 21 29, 16 29 C11 29, 7 26, 7 21 C7 16, 12 11, 16 4 Z' fill='%234F6B3A'/%3E%3C/svg%3E" />
+<style>
+/* ── chip dropdown nav (cultivation.html) ── */
+.chip-group {
+  position: relative;
+  display: inline-flex;
+}
+.chip--has-sub {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1.5px solid var(--line);
+  background: var(--rice);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  line-height: 1.4;
+}
+.chip--has-sub:hover {
+  border-color: var(--leaf);
+  color: var(--green-deep);
+}
+.chip--has-sub[aria-expanded="true"] {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+.chip-arrow {
+  display: inline-block;
+  font-size: 0.7em;
+  transition: transform 0.2s;
+  line-height: 1;
+  opacity: 0.7;
+}
+.chip--has-sub[aria-expanded="true"] .chip-arrow {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+.chip-panel {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 6px;
+  min-width: 178px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+  z-index: 200;
+}
+.chip-panel.is-open { display: block; }
+.chip-panel a {
+  display: block;
+  padding: 9px 14px;
+  font-size: 0.875rem;
+  font-family: var(--sans);
+  color: var(--ink);
+  text-decoration: none;
+  border-radius: 9px;
+  white-space: nowrap;
+  transition: background 0.12s, color 0.12s;
+}
+.chip-panel a:hover {
+  background: var(--rice);
+  color: var(--green);
+}
+</style>
 </head>
 <body data-nav="cult">
 <div id="site-header"></div>
@@ -28,10 +100,35 @@
 
 <section class="section section--first section--tight">
   <div class="container">
-    <div class="chips">
-      <a class="chip active" href="#all">全部</a>
-      <a class="chip" href="#group-cultivation">栽培與轉作</a>
-      <a class="chip" href="#group-quality">品質與品評</a>
+    <div class="chips" style="align-items:center; position:relative; z-index:100;">
+      <a class="chip active" href="#group-cultivation">全部</a>
+
+      <div class="chip-group">
+        <button class="chip--has-sub" aria-expanded="false" aria-haspopup="true">
+          栽培與轉作 <span class="chip-arrow">▾</span>
+        </button>
+        <div class="chip-panel" role="menu">
+          <a href="#areca-conversion" role="menuitem">檳榔轉作油茶</a>
+          <a href="#cultivation-basics" role="menuitem">油茶栽培管理</a>
+          <a href="#soil-and-fertilizer" role="menuitem">土壤與肥培管理</a>
+          <a href="#grass-cover" role="menuitem">草生栽培</a>
+          <a href="#water-management" role="menuitem">水分管理</a>
+          <a href="#pruning" role="menuitem">整枝修剪</a>
+          <a href="#ipm" role="menuitem">病蟲草害</a>
+        </div>
+      </div>
+
+      <div class="chip-group">
+        <button class="chip--has-sub" aria-expanded="false" aria-haspopup="true">
+          品質與品評 <span class="chip-arrow">▾</span>
+        </button>
+        <div class="chip-panel" role="menu">
+          <a href="#postharvest" role="menuitem">採收後處理</a>
+          <a href="#oil-quality" role="menuitem">茶籽與茶油品質</a>
+          <a href="#sensory-evaluation" role="menuitem">茶油品評</a>
+          <a href="#functional-research" role="menuitem">機能性研究</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -833,6 +930,48 @@
     </section>
 
 <div id="site-footer"></div>
+<script>
+(function(){
+  /* Set IDs on cat-blocks so anchor links work */
+  document.querySelectorAll('.cat-block[data-cat]').forEach(function(el){
+    el.id = el.dataset.cat;
+  });
+
+  /* Chip dropdown toggle */
+  var btns = document.querySelectorAll('.chip--has-sub');
+
+  function closeAll(){
+    btns.forEach(function(b){
+      b.setAttribute('aria-expanded','false');
+      var p = b.nextElementSibling;
+      if(p) p.classList.remove('is-open');
+    });
+  }
+
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      var panel = btn.nextElementSibling;
+      var wasOpen = btn.getAttribute('aria-expanded') === 'true';
+      closeAll();
+      if(!wasOpen){
+        btn.setAttribute('aria-expanded','true');
+        panel.classList.add('is-open');
+      }
+    });
+  });
+
+  /* Close when clicking a panel item */
+  document.querySelectorAll('.chip-panel a').forEach(function(a){
+    a.addEventListener('click', function(){ closeAll(); });
+  });
+
+  /* Close on outside click */
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.chip-group')) closeAll();
+  });
+})();
+</script>
 <script src="./assets/site.js"></script>
 </body>
 </html>
